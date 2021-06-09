@@ -1,0 +1,7 @@
+<h3>Customer Id : {{customerId}}</h3>
+<hr>
+<button mat-raised-button color="primary" routerLink="/customer/detail/{{customerId}}/salaryDetail">Salary Details</button>
+&nbsp;
+<button mat-raised-button color="primary" (click)="navigateToRoute()">Address Details</button>
+<hr>
+<router-outlet></router-outlet>
